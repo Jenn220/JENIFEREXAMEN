@@ -124,7 +124,7 @@ def home():
         <p class="subtitle">Explorando las maravillas de la mecánica cuántica</p>
         
         <div class="info-section">
-            <h2>¿Qué es el Reino Cuántico?</h2>
+            <h2>¿?</h2>
             <p>
                 El reino cuántico es el mundo de lo infinitamente pequeño, donde las partículas 
                 subatómicas se comportan de maneras que desafían nuestra intuición. En este reino, 
