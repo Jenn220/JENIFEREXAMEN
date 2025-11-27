@@ -122,19 +122,7 @@ Ver estado del servicio:
 docker service ls | grep alvarez
 ```
 
-## Características del Proyecto
 
-✅ Repositorio exclusivo para el proyecto
-✅ Rama de trabajo: gonzalez
-✅ Aplicación Flask funcional
-✅ Dockerización completa
-✅ Pipeline CI funcional (build + tests)
-✅ Pipeline CD funcional (deploy automático)
-✅ Imagen publicada en GitHub Packages
-✅ Stack configurado para Docker Swarm
-✅ Subdominio configurado: alvarez.byronrm.com
-✅ SSL/TLS automático
-✅ Deploy 100% automatizado
 
 ## Autor
 
