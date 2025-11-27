@@ -161,7 +161,7 @@ def home():
             
             <div class="fact-card">
                 <h3>💻 Computación Cuántica</h3>
-                <p>Los ordenadores cuánticos utilizan qubits que pueden procesar información exponencialmente más rápido.</p>
+                <p>Los ordenadores cuánticos utilizan qubits que pueden procesar información exponencialmente más rápido..</p>
             </div>
         </div>
         
