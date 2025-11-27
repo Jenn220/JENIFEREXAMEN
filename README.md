@@ -126,7 +126,7 @@ docker service ls | grep alvarez
 
 ## Autor
 
-**Jenifer Alvarez**
+**Jenni Alvarez**
 
 Examen Final - CI/CD
 Fecha: Noviembre 2025
