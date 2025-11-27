@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  alvarez:
+    image: ghcr.io/jenn220/alvarez:1.0.5
+    deploy:
+      replicas: 1
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.alvarez.entrypoints=http"
+        - "traefik.http.routers.alvarez.rule=Host(`alvarez.byronrm.com`)"
+        - "traefik.http.middlewares.alvarez-https-redirect.redirectscheme.scheme=https"
+        - "traefik.http.routers.alvarez.middlewares=alvarez-https-redirect"
+        - "traefik.http.routers.alvarez-secure.entrypoints=https"
+        - "traefik.http.routers.alvarez-secure.rule=Host(`alvarez.byronrm.com`)"
+        - "traefik.http.routers.alvarez-secure.tls=true"
+        - "traefik.http.routers.alvarez-secure.tls.certresolver=http"
+        - "traefik.http.routers.alvarez-secure.service=alvarez"
+        - "traefik.http.services.alvarez.loadbalancer.server.port=3000"
+        - "traefik.docker.network=traefik-public"
+    networks:
+      - traefik-public
+
+networks:
+  traefik-public:
+    external: true
