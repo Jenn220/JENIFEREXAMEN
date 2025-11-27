@@ -120,7 +120,7 @@ def home():
 </head>
 <body>
     <div class="container">
-        <h1><span class="particle">⚛️</span> Reino Cuántico <span class="particle">⚛️</span></h1>
+        <h1><span class="particle">⚛️</span> .....jenii <span class="particle">⚛️</span></h1>
         <p class="subtitle">Explorando las maravillas de la mecánica cuántica</p>
         
         <div class="info-section">
